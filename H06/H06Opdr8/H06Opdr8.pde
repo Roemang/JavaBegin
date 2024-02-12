@@ -1,8 +1,18 @@
-int mijnGetal = 8;
+float cijfer = 8;
+boolean diploma = false;
+boolean cumlaude = false;
 
-if(mijnGetal >= 1 && mijnGetal > 0 && mijnGetal <= 7){
-  println("ja je hebt een cijfer gehad.");
+if(cijfer >= 5.5){
+  diploma = true;
 }
-else if(mijnGetal >= 8 && mijnGetal > 0 && mijnGetal <= 10){
-  println("Gefeliciteerd met je cumlaude");
+
+if(diploma){
+  println("Gefeliciteerd");
+}
+if(cijfer >= 8){
+  cumlaude = true;
+}
+
+if(cumlaude){
+  println("Je bent geslaagd met een cumlaude");
 }
