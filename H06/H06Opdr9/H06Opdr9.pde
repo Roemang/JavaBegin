@@ -1,15 +1,19 @@
-float mijnGetal = 5.6;
-float mijngetalTwee = 6.1;
+float cijfer = 5.7;
+float cijferTwee = 5.7;
+boolean diplomacijferEen = false;
+boolean diplomacijferTwee = false;
 
-if(mijnGetal >= 1 && mijnGetal > 0 && mijnGetal <= 5.4){
-  println("onvoldoende");
+if (cijfer >= 5.5) {
+  diplomacijferEen = true;
 }
-else if(mijnGetal >= 5.5 && mijnGetal > 0 && mijnGetal <= 10){
-  println("je hebt een voldoende");
+
+if (cijferTwee >= 5.5) {
+  diplomacijferTwee = true;
 }
-if(mijngetalTwee >= 1 && mijngetalTwee > 0 && mijngetalTwee <= 5.4){
-  println("onvoldoende");
-}
-else if(mijngetalTwee >= 5.5 && mijngetalTwee > 0 && mijngetalTwee <= 10){
-  println("je hebt een voldoende");
+
+
+if (diplomacijferEen == true && diplomacijferTwee == true) {
+  println("Je bent geslaagd!");
+} else if (diplomacijferEen == false || diplomacijferTwee == false){
+  println("je bent gezakt");
 }
