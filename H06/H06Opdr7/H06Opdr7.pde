@@ -1,5 +1,18 @@
-int diploma = 6;
+float cijfer = 5.7;
+boolean diploma = false;
+boolean vrijstelling = false;
 
-if(diploma >= 1 && diploma > 0 && diploma <= 10){
-  println("Gefeliciteerd met je diploma.");
+if(cijfer >= 5.5){
+  diploma = true;
+}
+
+if(diploma){
+  println("Gefeliciteerd");
+}
+if(cijfer >= 5.5){
+  vrijstelling = true;
+}
+
+if(vrijstelling){
+  println("Je hebt ook vrijstelling");
 }
